@@ -1,0 +1,309 @@
+* {
+	padding: 0;
+	margin: 0;
+    font-family: 'Eczar';
+	color: rgb(52, 62, 90);
+    text-decoration: none;
+
+}
+
+body {
+    background-color: rgb(247, 243, 237);
+    font-size: 16px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+a {
+	text-decoration-style: none;
+}
+
+#head {
+    width: 100%;
+    height: 33px;
+}
+
+#header {
+    background-color: rgb(247, 243, 237);
+    opacity: 0.75;
+    filter: alpha(opacity=0.75);
+ /*   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    height: 59px;
+    width: 100%;
+    position: fixed;
+/*    border-bottom: solid;
+    border-width: 0.1px;
+    border-color: darkgrey; */
+    z-index: 6;
+
+}
+
+
+#logo img {
+    display: inline-block;
+    position: fixed;
+    height: 35px;
+    width: 204px;
+    margin: 8px auto 8px 12px;
+    z-index: 7;
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(250,173,99);
+    padding-bottom: 1px;
+}
+
+
+ul {
+    font-size: 24px;
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    margin: 8px;
+    height: 43px;
+    z-index: 7;
+}
+
+.menuitem {
+    display: inline-block;
+    margin: 0 30px;
+    font-weight: 600;
+    height: 31px;
+    padding: 1px 0;
+}
+
+.menuitem:hover {
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(250,173,99);
+}
+
+#cart {
+    height: 21px;
+    width: auto;
+}
+
+.cart {
+    margin-left: 8px;
+}
+#cover {
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/HS20180607_lange-nacht_130.jpg?raw=true");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+}
+
+
+#philosophy {
+    height: 25%;
+    width: 76%;
+    padding: 5% 4%;
+    border-radius: 1px;
+    background: rgb(247, 243, 237);
+    margin: 0px 8%;
+}
+
+
+hr {
+    display: block;
+    margin: 0 15%;
+    background: rgb(247, 243, 237);
+    border-top: 2px solid rgb(250,173,99);
+}
+
+.articlebox {
+    position: relative;
+    padding: 1% 0;
+    height: 35%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    background: rgb(247, 243, 237);
+
+}
+
+.articlecontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articlepicleft {
+    display: inline-block;
+    height: auto;
+    width: 38%;
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/kaffeepackunglinks.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 4% 0;
+}
+
+.articleinfoleft {
+    display: inline-block;
+    width: 58%;
+    height: auto;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.articlepicright {
+    display: inline-block;
+    height: auto;
+    width: 38%;
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/kaffeepackungrechts.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 4% 0;
+
+}
+
+.articleinforight {
+    display: inline-block;
+    width: 58%;
+    height: auto;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 27px;
+    color: rgb(250,173,99);
+    text-align: center;
+}
+
+.origin {
+    color: grey;
+    font-size: 16px;
+}
+
+.button1 {
+    display: block;
+    width: 110px;
+    height: 25px;
+    border: 2px solid rgb(52, 62, 90);
+    border-radius: 3px;
+    color: rgb(247, 243, 237);
+    margin: 4% auto 2% auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px;
+    background-color: rgb(52, 62, 90);
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(247, 243, 237);
+}
+
+.contentbox {
+    display: block;
+    height: 400px;
+    width: 70%;
+    margin: 1% 15%;
+}
+
+.content {
+    height: 250px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+#crossnavi {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+#laden {
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/IMGP4917.JPG?raw=true");
+}
+
+#roesterei {
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/IMGP4872.JPG?raw=true");
+}
+
+#cup1 {
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/IMGP4907.JPG?raw=true");
+    height: 297px;
+    width: 100%;
+}
+
+#colin1 {
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/IMGP4908.JPG?raw=true");
+    height: 297px;
+    width: 100%;
+}
+
+.previewpic {
+    position: relative;
+    width: 33%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+
+.previewpic:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.previewpic div {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    margin-top: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.previewpiccontainer {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#anfahrt {
+    display: flex;
+    height: 600px;
+    width: 76%;
+    margin: 2% 12%;
+}
+
+#staticmap {
+    background-image: url("https://github.com/schinderhannes32/roestbrueder/blob/master/img/kaffeepackunglinks.jpg?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 45%;
+    margin-top: 80px;
+}
+
+#contactinfo {
+    height: 350px;
+    width: 46%;
+    margin-top: 150px;
+    margin-left: 5%;
+}
+
+#contactinfo a {
+		text-decoration: underline;
+}
+
+#footer {
+    height: 200px;
+    width: 80%;
+    margin: 5% 10% 1% 10%;
+}
+
+
+/* blabla Kommentar */
